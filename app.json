@@ -1,7 +1,7 @@
 {
-      "name": "EmiliaBot",
+      "name": "Boboiboy Supra",
       "description": "An Anime themed Telegram group management bot.",
-      "logo": "https://telegra.ph/file/3cf1be03a3b1653cc98d1.jpg", 
+      "logo": "https://telegra.ph/file/b6c15f0dbc505cda8ac90.jpg", 
       "keywords": [
          "telegram",
          "anime",
@@ -22,17 +22,17 @@
       "TOKEN": {
          "description": "Your bot token. Can be obtained from https://telegram.dog/BotFather/",
          "required": true,
-         "value": ""
+         "value": "5065940589:AAHeo6cJVpdIW3tx_h5C3Cq1Cg01bEhxWsk"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "4759912"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "5bcc548f108e30a913a339a4f97f315c"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your Postgres SQL DataBase URI, Get one from ElephantSQL.com",
@@ -42,36 +42,36 @@
       "OWNER_ID": {
          "description": "Your Telegram User ID as an integer.",
          "required": true,
-         "value": ""
+         "value": "1323719429"
       },
       "OWNER_USERNAME": {
          "description": "Your Telegram username without the @",
-         "value": ""
+         "value": "Aryanjawale"
       },
       "SUPPORT_CHAT": {
          "description": "The Telegram Support Group Where Users of your Bot can Go and ask their Questions. This MUST NOT be pointing towards TangentChats",
          "required": true,
-         "value": "SupportGroupName"
+         "value": "trainer_zone"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-123456789"
+         "value": "-1001197394366"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-123456789"
+         "value": "-1001197394366"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
          "required": true,
-         "value": "abc"
+         "value": "24IWG7JGXMR46QEE"
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
          "required": true,
-         "value": "abc"
+         "value": "YGTK7XPATUHK"
       },
       "DEV_USERS": {
          "description": "Enter the IDs of the users who are the Developers of the Bot. If you are newbie and want help from Tangent Itself, then keep the IDs as they are and add yours",
@@ -81,7 +81,7 @@
       "SPAMWATCH_API": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
          "required": false,
-         "value": ""
+         "value": "M7r11AlyDZGvFh2F9U6umCS96iVvyMC~Bo9khw2cKMcYvRBYyDOUNJ7FLQqEEwgP"
       }, 
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -124,7 +124,7 @@
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
          "required": false,
-         "value": "https://example.herokuapp.com/"
+         "value": ""
       },
       "NO_LOAD": {
          "description": "List of Modules that are not be Loaded",
@@ -157,17 +157,17 @@
       "MONGO_DB_URI": {
          "description": "Your Mongo DB URI",
          "required": true,
-         "value": ""
+         "value": "mongodb+srv://akugay:akugay@cluster22.ly1qn.mongodb.net/akugay?retryWrites=true&w=majority"
       },
       "ARQ_API_KEY": {
          "description": "Get one @ARQRobot on Telegram",
          "required": true,
-         "value": ""
+         "value": "ALXAUY-TFKZWT-WXEHJO-IJCPWM-ARQ"
       },
       "LOG_GROUP_ID": {
          "description": "The ID of the Group where the bot will spam with shitty errors and techy stuff",
          "required": true,
-         "value": ""
+         "value": "-1001197394366"
       }
    }
 }
